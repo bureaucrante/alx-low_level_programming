@@ -7,7 +7,7 @@ int main(void)
 
 	puts(Mystr); /*writing string into sdout*/
 
-	return 0;
+	return (0);
 
 
 }
