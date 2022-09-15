@@ -11,7 +11,7 @@ void times_table(void)
 		{
 			multi = (n * c);
 
-			if (multi > 9)
+			/*if (multi > 9)
 			{
 				a = multi % 10;
 				b = (multi - a) / 10;
@@ -20,9 +20,9 @@ void times_table(void)
 				_putchar(32);
 				_putchar(a + '0');
 				_putchar(b + '0');
-			}
+			}*/
 
-			_putchar(multi + '0');
+			_putchar(multi /*+ '0'*/);
 		}
 	
 	_putchar('\n');
