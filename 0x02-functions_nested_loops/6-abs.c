@@ -9,9 +9,9 @@
 
 int _abs(int num)
 {
-	int abs(num);
+	int abs_num;
 
-	abs(num) = num * -1);
+	abs_num = (num * -1);
 
 	if (num < 0)
 	{
