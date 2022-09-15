@@ -9,7 +9,7 @@ void times_table(void)
 	{
 		int c;
 
-		for (c=0; c =< 9; c++)
+		for (c=0; c <= 9; c++)
 		{
 			int multi;
 
@@ -18,6 +18,6 @@ void times_table(void)
 			_putchar(multi);
 		}
 	}
-	return (0);
+	return (multi);
 }
 
