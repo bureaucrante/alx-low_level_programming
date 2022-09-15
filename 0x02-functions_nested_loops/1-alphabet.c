@@ -2,9 +2,7 @@
 
 
 /**
- * main - print the alphabet in lowercase by converting from ASCII
- *
- * Description: up.
+ * print_alphabet - print the alphabet in lowercase by converting from ASCII
  *
  * Return: Always 0.
  */
