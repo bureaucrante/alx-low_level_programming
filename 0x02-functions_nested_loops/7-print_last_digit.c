@@ -7,15 +7,14 @@
 
 int print_last_digit(int num)
 {
-
-	if (num != 0)
+	int lastDigit;
+	
+	lastDigit = num % 10;
+	
+	if (lastDigit < 0)
 	{
-		int lastDigit;
-		
-		lastDigit = num % 10;
-		
-		return (lastDigit);
+		lastDigit = lastDigit * -1;
 	}
 
-	return (num);
+	return (lastDigit);
 }
