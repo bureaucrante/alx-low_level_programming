@@ -11,7 +11,7 @@ int add(int n1, int n2)
 	
 	add = (n1 + n2);
 	
-	_putschar(add + '0');
+	_putchar(add + '0');
 }
 
 
