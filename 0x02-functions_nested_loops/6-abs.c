@@ -15,7 +15,7 @@ int _abs(int num)
 
 	if (num < 0)
 	{
-		_putchar(abs(num));
+		_putchar(abs_num);
 	}
 	return (0);
 }
