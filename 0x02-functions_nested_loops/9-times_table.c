@@ -3,21 +3,18 @@
 
 void times_table(void)
 {
-	int n;
+	int n, c, multi;
 
-	for  (n = 0; n <= 9; n++ )
+	for (n = 0; n <= 9; n++)
 	{
-		int c;
-
 		for (c=0; c <= 9; c++)
 		{
-			int multi;
 
 			multi = (n * c);
 
-			_putchar(multi);
+			_putchar(multi + '0');
 		}
+	
 	}
-	return (0);
 }
 
