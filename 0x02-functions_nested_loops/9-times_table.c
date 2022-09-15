@@ -3,7 +3,7 @@
 
 void times_table(void)
 {
-	int n, c, multi, a, b;
+	int n, c, multi;
 
 	for (n = 0; n <= 9; n++)
 	{
@@ -24,7 +24,7 @@ void times_table(void)
 				_putchar((multi / 10) + '0');
 			}
 
-			_putchar(multi /*+ '0'*/);
+			_putchar((multi % 10)+ '0');
 		}
 
 		_putchar('\n');
