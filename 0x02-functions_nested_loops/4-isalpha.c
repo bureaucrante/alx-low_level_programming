@@ -4,7 +4,8 @@
  * _isalpha - Checks for alphabetic characters
  * @c: is the character to be case-checked
  *
- * Return: 1 if the character is an alphabet (case-insensite) characters, 0 otherwise
+ * Return: 1 if the character is an alphabet (case-insensite)
+ * Return: 0 if the character is not an alphabet
  */
 
 int _isalpha(int c)
