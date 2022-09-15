@@ -18,6 +18,6 @@ void times_table(void)
 			_putchar(multi);
 		}
 	}
-	return (multi);
+	return (n);
 }
 
