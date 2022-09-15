@@ -7,11 +7,12 @@
  * Return: 0 if success.
  */
 
-int _abs(int)
+int _abs(int num)
 {
-	int num;
-	int abs(num) = (num * -1);
-	
+	int abs(num);
+
+	abs(num) = num * -1);
+
 	if (num < 0)
 	{
 		_putchar(abs(num));
