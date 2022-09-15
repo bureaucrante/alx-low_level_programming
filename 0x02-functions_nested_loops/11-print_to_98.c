@@ -3,8 +3,29 @@
 
 void print_to_98(int n)
 {
-	int start;
-	for (n = start; n <= 98; n++)
+	if (n <= 98)
+	{
+		_putchar(n);
+		
+		if (n != 98)
+		{
+			_putchar(',');
+		}
+		n++;
+	
+	}
+
+	else if (n => 98)
+	{
+		_putchar(n);
+		if (n != 98)
+		{
+			_putchar(',');
+		}
+		n--;
+	}
+
+	else
 	{
 		_putchar(n);
 	}
