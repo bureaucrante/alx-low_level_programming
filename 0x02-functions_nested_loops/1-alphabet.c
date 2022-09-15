@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdbool.h>
 
 
 /**
@@ -9,15 +7,16 @@
  * Return: Always 0.
  */
 
-int main(void)
+void print_alphabet(void)
+
 {
 	char x = 'a';
 
 	while (x <= 'z')
 	{
-		putchar(x);
+		_putchar(x);
 		x++; 
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
