@@ -3,14 +3,17 @@
 int main(void)
 {
 	int n;
-	n = 0;
+	int c;
 
-	for (n = 0; n <= 9; n++)
+	//n = 1;
+
+	for (n = 1; n <= 10; n++)
 	{
-		if ((n != 2) && (n != 4))
+		for (c = 0; c <= 14; c++)
 		{
-			printf("%d", n);
+			printf("%d", c);
 		}
+		printf("\n");
 	}
-	printf("\n");
+	//printf("\n");
 }
