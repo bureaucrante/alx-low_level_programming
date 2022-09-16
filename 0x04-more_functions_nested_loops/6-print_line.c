@@ -2,8 +2,7 @@
 
 /**
  * print_line - prints a series of underscores(_), in order to form a line.
- * @n - the number of times the loop will run
- * @i - the length of the lin 
+ * @n: the number of times the loop will run.
  *
  * Return: Always 0
  */
