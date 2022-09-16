@@ -2,6 +2,8 @@
 
 /**
  * print_numbers - prints a certain range of numbers
+ *
+ * Return: Always 0 (success).
  */
 
 void print_numbers(void)
