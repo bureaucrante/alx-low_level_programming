@@ -4,18 +4,18 @@ int main(void)
 {
 	int c;
 
-	printf("Please enter the character: ");
+	printf("enter character: ");
 	scanf("%lc", &c);
-	
-	if ((c >= 65) && (c <= 90))
+
+	if ((c >= 48) && (c <= 57))
 	{
-		printf("%c is uppercase!\n", c);
+		printf("%c is a number!\n", c);
 		
 		return (1);
 	}
 	else
 	{
-		printf("%c is not uppercase!\n", c);
+		printf("%c is not a number!\n", c);
 
 		return (0);
 	}
