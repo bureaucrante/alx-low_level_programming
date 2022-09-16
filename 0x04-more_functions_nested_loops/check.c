@@ -2,21 +2,15 @@
 
 int main(void)
 {
-	int c;
+	int n;
+	n = 0;
 
-	printf("enter character: ");
-	scanf("%lc", &c);
-
-	if ((c >= 48) && (c <= 57))
+	for (n = 0; n <= 9; n++)
 	{
-		printf("%c is a number!\n", c);
-		
-		return (1);
+		if ((n != 2) && (n != 4))
+		{
+			printf("%d", n);
+		}
 	}
-	else
-	{
-		printf("%c is not a number!\n", c);
-
-		return (0);
-	}
+	printf("\n");
 }
