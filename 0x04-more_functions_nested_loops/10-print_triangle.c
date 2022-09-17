@@ -1,6 +1,10 @@
 #include "main.h"
 
 /**
+ * print_triangle - prints a triangle with a combination of spaces and # signs.
+ * @size: the total number of rows to be printed.
+ *
+ * Return: Always (0)
  */
 
 void print_triangle(int size)
