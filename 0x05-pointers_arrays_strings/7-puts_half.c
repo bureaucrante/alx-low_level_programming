@@ -16,7 +16,7 @@ void puts_half(char *str)
 	{
 		y = ((l / 2) - 1);
 	}
-	
+
 	else
 	{
 		y = (l / 2);
