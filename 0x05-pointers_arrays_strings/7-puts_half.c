@@ -14,14 +14,7 @@ void puts_half(char *str)
 
 	for (n = y; n < l; n++)
 	{
-		if (y == 0)
-		{
-			_putchar(str[n]);
-		}
-		else 
-		{
-			_putchar(str[n + 1]);
-		}
+		_putchar(str[n]);
 	}
 	_putchar('\n');
 }
