@@ -1,23 +1,20 @@
 #include "main.h"
-
+#include <string.h>
 /**
+ * put2 - prints alternate characters in string.
+ * @str: the string to be evaluated.
  */
 
 void puts2(char *str)
 {
-	int n, i, j;
+	int n, l;
 
-	for (n = 0; n >= 0; n++) 
+	l = (strlen(str));
+
+
+	for (n = 0; n < l; n += 2)
 	{
-		if (str[n] != '\0')
-		{
-			j++;
-		}
-		for (i = 1; i <= j; i += 2)
-		{
-			_putchar(str[i]);
-		}
+		_putchar(str[n]);
 	}
-	
 	_putchar('\n');
 }
