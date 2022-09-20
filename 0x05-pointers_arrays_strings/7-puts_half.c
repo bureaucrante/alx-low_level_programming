@@ -12,7 +12,17 @@ void puts_half(char *str)
 
 	l = (strlen(str));
 
-	y = l / 2;
+	if (l % 2 == 1)
+	{
+		y = ((l / 2) - 1);
+
+		y += 1;
+	}
+	
+	else
+	{
+		y = (l / 2);
+	}
 
 	for (n = y; n < l; n++)
 	{
