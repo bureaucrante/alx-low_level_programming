@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * put2 - prints alternate characters in string.
+ * puts2 - prints alternate characters in string.
  * @str: the string to be evaluated.
  */
 
