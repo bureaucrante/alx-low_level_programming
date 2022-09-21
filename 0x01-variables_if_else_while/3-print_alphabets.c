@@ -5,7 +5,7 @@
  * Return: Always 0
  */
 
-int main (void)
+int main(void)
 {
 	int i, x;
 
@@ -17,7 +17,7 @@ int main (void)
 		putchar(i);
 		i++;
 	}
-	while (x < 90)
+	while (x < 91)
 	{
 		putchar(x);
 		x++;
