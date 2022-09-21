@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 /**
+ * main - main
+ * Return: Always 0
  */
 
 int main (void)
@@ -19,7 +21,9 @@ int main (void)
 	{
 		putchar(x);
 		x++;
-	
+
 	}
 	putchar('\n');
+
+	return (0);
 }
