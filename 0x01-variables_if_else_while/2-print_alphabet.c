@@ -9,10 +9,10 @@ int main()
 
 	i = 97;
 
-	if (i <= 122)
+	while (i <= 122)
 	{
 		putchar(i);
+		i++;
 	}
-	i++;
 	putchar('\n');
 }
