@@ -12,7 +12,7 @@ int main()
 	if (i <= 122)
 	{
 		putchar(i);
-		i++;
 	}
+	i++;
 	putchar('\n');
 }
