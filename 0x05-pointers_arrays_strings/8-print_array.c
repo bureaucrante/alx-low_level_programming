@@ -18,6 +18,10 @@ void print_array(int *a, int n)
 			printf("%d", a[j]);
 			printf(", ");
 		}
+		else
+		{
+			break;
+		}
 	}
 	printf("\n");
 }
