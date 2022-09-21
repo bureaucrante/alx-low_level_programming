@@ -15,12 +15,9 @@ void print_array(int *a, int n)
 	{
 		if (a[j] != '\0')
 		{
-			printf("%d, ", a[j]);
+			printf("%d", a[j]);
 		}
-		else
-		{
-			printf(", ");
-		}
+		printf(", ");
 	}
 	printf("\n");
 }
