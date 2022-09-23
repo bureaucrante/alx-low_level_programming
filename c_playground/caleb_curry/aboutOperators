@@ -1,0 +1,12 @@
+//Operators are used to perform arithmetic tasks on operands. 
+//Addition, subtraction, multiplication and diviion are all examples of arithmetic operators.
+//Classification of Operators by Number of Operands
+	//Binary - in which there are (2) operands
+	//Unary - in which only (1) operand is involved
+	//Ternary - Involving (3) operands.
+
+//Classification of Operators by Functioon
+	//Arithmetic
+	//Logical
+	//Assignment
+	//Relational

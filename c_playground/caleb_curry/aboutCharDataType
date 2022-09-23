@@ -1,0 +1,7 @@
+//character data types are individual characters of one byte which are identified by the use of '' around each character.
+//There is a "character set" which encompasses all accepted characters in C and this is called ASCII
+//Binary - two states, 0/1. Either option is one bit. 
+//Byte - a set of 8 bits
+//Standard ASCII reads bytes of data but only utilizes 7 of the 8 bits.
+//Since a character is one byte, and ASCII usually only utilises the 7 bits in that byte, the total number of possible binary (bit) combinations that can be observerd are 128 characters. 
+//In the same way that binary combinations in bytes represent letters in the alphabet, that same string of 1s and 0s, have a direct numerical definition as well. e.g, A =65 as n integer.

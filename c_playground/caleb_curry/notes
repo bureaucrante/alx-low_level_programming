@@ -1,0 +1,56 @@
+#the initial arrangement beginning with [#include <stdio.h>] 
+and ending with the last curly brace is called a function definition and it will always have the format presented in the previous piece of code;
+#include <stdio.h>
+
+int main ()
+{
+	command(e.g printf)(statement of function of the command);	
+	return (wv);
+
+}
+main in this instance is called the identifier and it is prone to change ig
+
+the entire piece of called is a function and a fucntion is simply the name of a algorithm.
+
+main is the first function that is called when a program is launched.
+
+the 'int' before the main is called a date type and it stands for integer which correlates with the 0 attached to the  return command.
+
+for the 'command' to run in the piece of code it has to come from a preexisting library, and that library is defined inthe first line, which is <stdio.h>
+
+\n is the new line character which tells the shell to continue on a new line
+
+variables can also be defined in C language using 'int', which, we know, stands for intenger, hence the value of said variable must be a number. 
+
+The syntax for such a funciton would be;
+
+int VAR_NAME 
+VAR_NAME = value. 
+
+C is space insensitive, hence wherever the space is, it is still legit. This syntax would declare a variable. and it can then be used in an expression. 
+//An expression is anything that can be resolved/evaluated to one value;
+	int x;
+	x = 10;
+
+	int y = x / 2;
+
+the value for x is read from the earlier defined variable and the expression is resolved as such. 
+The Definition of a "Function": a function is essentially a shorthand for calling a bunch of statements which have been written down in the code. the "int main()" precursor, IS the function, and "main" is merely a placeholder for whatever name the user would like to give the function. 
+Whatever instruction or statement that is entered into the ()of the function, just like printf(), is called an "argument", and just like in printf, the function can accept as many agruments as possible as long as each one is separated by a comma. 
+Functions can be entered within functions. and main is basically the house of the functions. 
+
+DATA TYPES: int(eger) = 1; double = 1.0.	Primitive Data types are the smalletst kinds of data type, also known as the building blocks. They are indivisible or atomic. 
+Complex Data Types e.g struct are data types which are built from the primitive into more complex types. They may even be combined to create more data types. 
+
+
+ARRAYS
+An array occurs when the syntax DATATYPE NAME[] is introduced. Whatever is inputted in the brackets is then an array called NAME.
+A string is a kind of array as well, called a character array. 
+
+In the syntax of varibles and values, the part which can be typed in is called a constant. There are different kinds of constant respresentations for different data types. Assume the constant is 3, for a char='3', int=3, string="3"
+
+
+NUMERIC DATA TYES
+int: whole numbers
+double:
+float:
