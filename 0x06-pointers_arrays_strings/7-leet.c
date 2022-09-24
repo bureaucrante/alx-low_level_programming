@@ -11,8 +11,8 @@ char *leet(char *str)
 {
 	int i, j, lim = 5;
 
-	char sml[] = {'a', 'e', 'o', 't', 'l'};
-	char num[] = {'4', '3', '0', '7', '1'};
+	char big[5] = {'A', 'E', 'O', 'T', 'L'};
+	char num[5] = {'4', '3', '0', '7', '1'};
 
 	i = 0;
 
@@ -20,7 +20,7 @@ char *leet(char *str)
 	{
 		for (j = 0; j < lim; j++)
 		{
-			if (str[i] == sml[j] || str[i] == sml[j - 32])
+			if (str[i] == big[j] || str[i] - 32 == big[j])
 			{
 				str[i] = num[j];
 			}
