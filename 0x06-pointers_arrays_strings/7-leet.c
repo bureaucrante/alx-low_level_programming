@@ -18,7 +18,7 @@ char *leet(char *str)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			while (str[i] == big[j])
+			if (str[i] == big[j])
 				str[i] = num[j];
 		}
 	}
