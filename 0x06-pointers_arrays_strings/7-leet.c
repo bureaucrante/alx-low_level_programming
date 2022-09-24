@@ -23,6 +23,7 @@ char *leet(char *str)
 			if (str[i] == big[j] || str[i] - 32 == big[j])
 			{
 				str[i] = num[j];
+				break;
 			}
 		}
 		i++;
