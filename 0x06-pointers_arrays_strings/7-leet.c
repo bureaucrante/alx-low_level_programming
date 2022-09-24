@@ -9,24 +9,21 @@
 
 char *leet(char *str)
 {
-	int i, j, lim = 5;
+	int i, j;
 
-	char big[5] = {'A', 'E', 'O', 'T', 'L'};
-	char num[5] = {'4', '3', '0', '7', '1'};
+	char big[] = {'A','a', 'E','e', 'O','o', 'T', 't', 'L', 'l'};
+	char num[] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 
-	i = 0;
-
-	while (str[i] != '\0')
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = 0; j < lim; j++)
+		for (j = 0; j < 10; j++)
 		{
-			if (str[i] == big[j] || str[i] - 32 == big[j])
+			if (str[i] == big[j])
 			{
 				str[i] = num[j];
 				break;
 			}
 		}
-		i++;
 	}
 
 	return (str);
