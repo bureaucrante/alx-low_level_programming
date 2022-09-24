@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - performs and an alpha-numeric switch on a string
+ * leet - encodes a string in 1337
  * @str: the string to be altered
  *
  * Return: altered string.
