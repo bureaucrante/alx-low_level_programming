@@ -1,22 +1,29 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
-	char Mystring[] = "Elizabeth";
+	char s1[] = "Elizabeth";
+	char s2[] = "Elizobeth";
 
-	int l;
+	int l = strcmp(s1, s2);
 
-	for (l = 0; l >= 0; l++)
+	int i;
+
+	for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
 	{
-		if (Mystring[l] == '\0')
+		if (s1[i] != s2[i])
 		{
-			putchar('\n');
+			printf("%d\n", (s1[i] - s2[i]));
 			break;
 		}
-		else
-		{
-			putchar(Mystring[l]);
-
-		}
 	}
+
+//	if (warning == 1)
+//	{
+//	}
+
+	printf("%d\n", l);
+
+	return (0);
 }
