@@ -4,7 +4,7 @@
  * _strlen_recursion - obtains the length of a string through recursion.
  * @s: the sting to be reversed.
  *
- * Return: lenght of the string. 
+ * Return: lenght of the string.
  */
 
 int _strlen_recursion(char *s)
@@ -14,5 +14,7 @@ int _strlen_recursion(char *s)
 		return (0);
 	}
 	else
-		return (1 + _strlen_recursion (s + 1));
+	{
+		return (1 + _strlen_recursion(s + 1));
+	}
 }
