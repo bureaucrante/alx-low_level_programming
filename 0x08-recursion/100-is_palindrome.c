@@ -19,8 +19,10 @@ int _strlen(char *str)
  * char_check - compares each character within a string.
  * @x: smallest index
  * @y: largest index
- * @s: the string to be checked  
- * */
+ * @s: the string to be checked
+ *
+ * Return: either option.
+ */
 int char_check(int x, int y, char *s)
 {
 	if (x >= y)
