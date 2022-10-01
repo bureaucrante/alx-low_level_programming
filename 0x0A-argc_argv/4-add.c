@@ -3,6 +3,11 @@
 #include <ctype.h>
 
 /**
+ * main - adds two numbers
+ * @argc: arguments count
+ * @argv: array of passed arguments
+ *
+ * Return: 0 for success, 1 otherwise.
  */
 
 int main(int argc, char *argv[])
