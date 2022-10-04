@@ -6,7 +6,7 @@
  * @argc: cmd line argument count
  * @argv: argument array
  *
- * Return: 0 for success, 1 for failure. 
+ * Return: 0 for success, 1 for failure.
  */
 
 int main(int argc, char *argv[])
