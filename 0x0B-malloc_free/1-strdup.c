@@ -16,11 +16,6 @@ int str_size(char *str)
 		l++;
 	}
 
-	if (str == 0)
-	{
-		return (0);
-	}
-
 	return (l + 1);
 }
 
@@ -35,12 +30,12 @@ char *_strdup(char *str)
 	char *dup;
 	unsigned int i, l;
 
-	l = str_size(str);
-
 	if (str == 0)
 	{
 		return (0);
 	}
+
+	l = str_size(str);
 
 	dup = malloc(l * sizeof(char));
 
