@@ -21,7 +21,7 @@ int str_size(char *str)
 		return (0);
 	}
 
-	return (l);
+	return (l + 1);
 }
 
 /**
@@ -49,7 +49,7 @@ char *_strdup(char *str)
 		return (0);
 	}
 
-	for (i = 0; str[i]; i++)
+	for (i = 0; i <= l; i++)
 	{
 		dup[i] = str[i];
 	}
