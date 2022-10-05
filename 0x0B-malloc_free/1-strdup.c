@@ -37,7 +37,7 @@ char *_strdup(char *str)
 
 	l = str_size(str);
 
-	if (l == 0)
+	if (str == 0)
 	{
 		return (0);
 	}
