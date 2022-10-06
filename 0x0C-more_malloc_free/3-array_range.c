@@ -4,7 +4,7 @@
 /**
  * array_range - creates an array of integers.
  * @min: lowest integer.
-
+ * @max: highest integer.
  * Return: address to location of created array.
  */
 
@@ -14,7 +14,7 @@ int *array_range(int min, int max)
 
 	if (min > max)
 		return (0);
-	
+
 	ts = (max - min + 1);
 
 	range = malloc(sizeof(int) * ts);
