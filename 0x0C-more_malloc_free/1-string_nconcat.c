@@ -12,37 +12,42 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int i, h, j, k, tlen;
+	unsigned int l1, l2, bytes, i, j;
 	char *dest;
+
+	bytes = n;
 
 	if (s1 == 0)
 		s1 = "";
 	if (s2 == 0)
 		s2 = "";
 
-	for (h = 0; s1[h]; h++)
+	for (l1 = 0; s1[l1] != '\0'; l1++)
 		;
-	for (i = 0; s2[i]; i++)
+	for (l2 = 0; s2[l2]; l2++)
 		;
 
-	if (n > i)
-		n = i;
-
-	tlen = (h + i + 1);
-
-	dest = malloc(tlen * sizeof(char));
+	if (bytes >= l2)
+	{
+		bytes = l2;
+		dest = malloc((l1 + l2 + 1) * sizeof(char));
+	}
+	else
+	{
+		dest = malloc((l1 + bytes + 1) * sizeof(char));
+	}
 
 	if (dest == 0)
 		return (0);
 
-	for (j = 0; j < h; j++)
-		dest[j] = s1[j];
+	for (i = 0; i < l1; i++)
+		dest[i] = s1[i];
 
-	for (k = 0; k < i; k++)
+	for (j = 0; j < bytes; j++)
 	{
-		dest[k + h] = s2[k];
+		dest[l1 + j] = s2[j];
 	}
-	dest[h + i] = '\0';
+	dest[l1 + bytes] = '\0';
 
 	return (dest);
 }
