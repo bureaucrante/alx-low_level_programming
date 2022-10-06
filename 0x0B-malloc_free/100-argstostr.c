@@ -28,14 +28,10 @@ char *argstostr(int ac, char **av)
 		}
 		len++;
 	}
-
 	news = malloc((len + 1) * sizeof(char));
 
 	if (news == 0)
-	{
-		free(news);
 		return (0);
-	}
 
 	for (q = 0; av[q]; q++)
 	{
