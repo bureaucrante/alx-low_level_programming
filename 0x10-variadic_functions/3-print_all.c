@@ -1,5 +1,6 @@
 #include <stdarg.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "variadic_functions.h"
 
 /**
@@ -45,7 +46,7 @@ void print_string(char *separator, va_list obj)
 {
 	char *str = va_arg(obj, char *);
 
-	if (!str)
+	if (str == NULL)
 		printf("(nil)");
 	printf("%s%s", separator, str);
 }
