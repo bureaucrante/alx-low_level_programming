@@ -1,16 +1,14 @@
+	global main
+	extern printf
+
 section .text
-	global _start
 
-_start:
-	mov edx, len
-	mov ecx, msg
-	mov ebx, 1
-	mov eax, 4
-	int 0x80
-
-	mov eax, 1
-	int 0x080
+main:
+	mov rdi, msg 
+	mov rax, 0
+	call printf
+	mov rax, 0
+	ret
 
 section .data
-	msg db "Hello, World!",10
-	len equ $ -msg
+	msg db "Hello, World", 10
