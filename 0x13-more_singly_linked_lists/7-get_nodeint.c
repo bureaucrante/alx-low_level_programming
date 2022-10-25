@@ -3,6 +3,7 @@
 /**
  * get_nodeint_at_index - accesses a list node at the given index.
  * @head: pointer to the beginning of the list.
+ * @index: the list index to be printed.
  *
  * Return: node at location.
 */
